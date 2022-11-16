@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{tsx,ts}"],
   mode: "jit",
   theme: {
     extend: {
+      transitionProperty: {
+        'width': 'width'
+    },
       dropShadow: {
         'glow': '0px 0px 7px #2dffc4dd',
       },
@@ -30,5 +34,7 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+
+]
 };
