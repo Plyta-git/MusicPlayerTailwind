@@ -3,6 +3,8 @@
 >Tailwind
 >React
 
+Live: https://serene-belekoy-55095b.netlify.app/
+
 Project created in 2 days to learn tailwind and type script.
 
 non-functional, only styling for PC 1920x1080
