@@ -6,10 +6,10 @@ export default function ArtistBaner() {
     <>
     {ArtistList.map(({artist, title, id, color, cover})=>{
       const getStyle:any = {
-        'box-shadow': `0px 5px 15px ${color}77`
+        'boxShadow': `0px 5px 15px ${color}77`
       }
         return(
-            <div key={id}  className=' hover:brightness-125 brightness-90 transition hover:scale-110 w-48 pr-48 m-6'>
+            <div key={id}  className=' hover:brightness-125 brightness-90 transition hover:scale-110 w-48 pr-40 m-8 mb-3'>
                 <div>
                     <img style={getStyle} className= {'min-w-fit	 h-44 snap-center  rounded-2xl'} src={cover}/>
                     <div className='mt-4 w-48'>

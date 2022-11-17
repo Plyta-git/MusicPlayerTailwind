@@ -17,3 +17,21 @@
 * {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar-track
+{
+	border-radius: 5px;
+	background-color:   none;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: none;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #555;
+}
