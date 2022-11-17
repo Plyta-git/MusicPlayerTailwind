@@ -27,7 +27,7 @@ export default function Player({children, isPlaying, songPlaying, setSongPlaying
       }
       </div>
       <div className=' mx-20 flex justify-evenly items-center'>
-        <img className=' mr-5 w-20 rounded-2xl' src='https://cdn.flipsnack.com/template/4466/small/page_1?v=1626854126'></img>
+        <img className=' shadow-[0_0px_50px_-20px_rgba(255,0,0,100)] hover:brightness-100 brightness-90 hover:shadow-[0_0px_50px_-15px_rgba(255,0,0,200)] mr-5 w-20 rounded-2xl hover:scale-110 transition ' src='https://cdn.flipsnack.com/template/4466/small/page_1?v=1626854126'></img>
         <div>
         <h1 className=' text-xl font-bold'>Title</h1>
         <h2 className=' text-secondary'>description</h2>

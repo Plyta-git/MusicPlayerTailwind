@@ -6,7 +6,7 @@ import ControlButtons from './components/Player/ControlButtons';
 
 const App = () => {
   const [songPlaying, setSongPlaying] = useState(0);
-  const [isPlaying, setisPlaying] = useState(false)
+  const [isPlaying, setisPlaying] = useState(true)
   
   return (
    <div className=' bg-b_primary text-gray-100 w-screen h-screen grid grid-cols-6 grid-rows-6'>
